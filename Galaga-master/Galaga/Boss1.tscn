@@ -1,0 +1,211 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Shooter_Images/10.png" type="Texture" id=1]
+[ext_resource path="res://sprites/beam_red.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9.67864, 10 )
+
+[sub_resource type="Gradient" id=2]
+
+offsets = PoolRealArray( 0, 1 )
+colors = PoolColorArray( 1, 0, 0, 1, 1, 1, 1, 1 )
+
+[sub_resource type="GradientTexture" id=3]
+
+flags = 4
+gradient = SubResource( 2 )
+width = 2048
+
+[sub_resource type="Curve" id=4]
+
+min_value = 0.0
+max_value = 5.0
+bake_resolution = 100
+_data = [ Vector2( 0, 2.52319 ), 0.0, 0.0, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=5]
+
+flags = 4
+width = 2048
+curve = SubResource( 4 )
+
+[sub_resource type="ParticlesMaterial" id=6]
+
+render_priority = 0
+trail_divisor = 1
+emission_shape = 1
+emission_sphere_radius = 15.0
+flag_align_y = false
+flag_rotate_y = false
+flag_disable_z = true
+spread = 45.0
+flatness = 0.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 1.0
+initial_velocity_random = 0.0
+angular_velocity = 0.0
+angular_velocity_random = 0.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 0.0
+linear_accel_random = 0.0
+radial_accel = -9.0
+radial_accel_random = 0.0
+tangential_accel = 0.0
+tangential_accel_random = 0.0
+damping = 0.0
+damping_random = 0.0
+angle = 0.0
+angle_random = 0.0
+scale = 1.0
+scale_random = 0.0
+scale_curve = SubResource( 5 )
+color_ramp = SubResource( 3 )
+hue_variation = 0.0
+hue_variation_random = 0.0
+anim_speed = 0.0
+anim_speed_random = 0.0
+anim_offset = 0.0
+anim_offset_random = 0.0
+anim_loop = false
+_sections_unfolded = [ "Color", "Scale" ]
+
+[sub_resource type="Gradient" id=7]
+
+offsets = PoolRealArray( 0, 1 )
+colors = PoolColorArray( 1, 1, 1, 1, 1, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=8]
+
+flags = 4
+gradient = SubResource( 7 )
+width = 2048
+
+[sub_resource type="ParticlesMaterial" id=9]
+
+render_priority = 0
+trail_divisor = 1
+emission_shape = 1
+emission_sphere_radius = 1.0
+flag_align_y = false
+flag_rotate_y = false
+flag_disable_z = true
+spread = 45.0
+flatness = 0.0
+gravity = Vector3( 0, 40, 0 )
+initial_velocity = 1.0
+initial_velocity_random = 0.0
+angular_velocity = 0.0
+angular_velocity_random = 0.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 0.0
+linear_accel_random = 0.0
+radial_accel = 45.0
+radial_accel_random = 0.0
+tangential_accel = 0.0
+tangential_accel_random = 0.0
+damping = 0.0
+damping_random = 0.0
+angle = 0.0
+angle_random = 0.0
+scale = 3.0
+scale_random = 0.0
+color_ramp = SubResource( 8 )
+hue_variation = 0.0
+hue_variation_random = 0.0
+anim_speed = 0.0
+anim_speed_random = 0.0
+anim_offset = 0.0
+anim_offset_random = 0.0
+anim_loop = false
+_sections_unfolded = [ "Color", "Radial Accel", "Scale" ]
+
+[node name="Node" type="Node" index="0"]
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="." index="0"]
+
+position = Vector2( 250.889, 88.2254 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+
+[node name="ShipSprite" type="Sprite" parent="KinematicBody2D" index="0"]
+
+rotation = 3.14159
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D" index="1"]
+
+visible = false
+position = Vector2( -0.0561848, -4.17661 )
+scale = Vector2( 5.29003, 4.65703 )
+shape = SubResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="ChargeParticles" type="Particles2D" parent="KinematicBody2D" index="2"]
+
+visible = false
+position = Vector2( -1.29848, 55.4345 )
+z_index = 1
+emitting = true
+amount = 200
+lifetime = 1.0
+one_shot = false
+preprocess = 0.0
+speed_scale = 1.0
+explosiveness = 0.0
+randomness = 0.0
+fixed_fps = 0
+fract_delta = true
+visibility_rect = Rect2( -100, -100, 200, 200 )
+local_coords = true
+draw_order = 0
+process_material = SubResource( 6 )
+texture = null
+normal_map = null
+h_frames = 1
+v_frames = 1
+_sections_unfolded = [ "Process Material", "Transform", "Z Index" ]
+
+[node name="Line2D" type="Line2D" parent="KinematicBody2D" index="3"]
+
+points = PoolVector2Array(  )
+width = 10.0
+default_color = Color( 1, 0, 0, 1 )
+texture = ExtResource( 2 )
+texture_mode = 1
+sharp_limit = 2.0
+round_precision = 8
+_sections_unfolded = [ "Fill" ]
+
+[node name="Particles2D" type="Particles2D" parent="KinematicBody2D" index="4"]
+
+position = Vector2( -2.99944, 54.7541 )
+z_index = 1
+emitting = true
+amount = 150
+lifetime = 0.7
+one_shot = false
+preprocess = 0.0
+speed_scale = 1.0
+explosiveness = 0.0
+randomness = 0.0
+fixed_fps = 0
+fract_delta = true
+visibility_rect = Rect2( -100, -100, 200, 200 )
+local_coords = true
+draw_order = 0
+process_material = SubResource( 9 )
+texture = null
+normal_map = null
+h_frames = 1
+v_frames = 1
+_sections_unfolded = [ "Process Material", "Textures", "Z Index" ]
+
+

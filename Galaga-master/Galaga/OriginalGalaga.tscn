@@ -1,0 +1,59 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Background.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Ship.tscn" type="PackedScene" id=2]
+[ext_resource path="res://GUI.tscn" type="PackedScene" id=3]
+[ext_resource path="res://GameManager.gd" type="Script" id=4]
+[ext_resource path="res://aliens_scene.tscn" type="PackedScene" id=5]
+[ext_resource path="res://LevelComplete.tres" type="Animation" id=6]
+
+[node name="Root" type="Node" index="0"]
+
+[node name="Background" parent="." index="0" instance=ExtResource( 1 )]
+
+[node name="Ship" parent="." index="1" instance=ExtResource( 2 )]
+
+[node name="GUI" parent="." index="2" instance=ExtResource( 3 )]
+
+[node name="GameManager" type="Node2D" parent="." index="3" groups=[
+"Persist",
+]]
+
+editor/display_folded = true
+script = ExtResource( 4 )
+enemyCount = 15
+
+[node name="RespawnTimer" type="Timer" parent="GameManager" index="0"]
+
+process_mode = 1
+wait_time = 2.5
+one_shot = false
+autostart = false
+
+[node name="RespawnShipTimer" type="Timer" parent="GameManager" index="1"]
+
+process_mode = 1
+wait_time = 1.5
+one_shot = false
+autostart = false
+
+[node name="RestartTimer" type="Timer" parent="GameManager" index="2"]
+
+process_mode = 1
+wait_time = 3.0
+one_shot = false
+autostart = false
+
+[node name="aliens_scene" parent="." index="4" instance=ExtResource( 5 )]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/LevelComplete = ExtResource( 6 )
+blend_times = [  ]
+
+

@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://LaserItem.gd" type="Script" id=1]
+[ext_resource path="res://sprites/spritesheets/MegaLaser.png" type="Texture" id=2]
+
+[sub_resource type="CapsuleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 4.34034
+height = 19.0596
+
+[node name="Node" type="Node"]
+
+[node name="LaserItem" type="Area2D" parent="." index="0"]
+
+position = Vector2( 414.957, -64.1057 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+velocity = Vector2( 0, 100 )
+
+[node name="Sprite" type="Sprite" parent="LaserItem" index="0"]
+
+position = Vector2( 0, -16 )
+scale = Vector2( 0.477612, 0.333333 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LaserItem" index="1"]
+
+position = Vector2( 0, -13.7031 )
+shape = SubResource( 1 )
+
+[node name="notifier" type="VisibilityNotifier2D" parent="LaserItem" index="2"]
+
+position = Vector2( 0.282746, -13.743 )
+scale = Vector2( 0.332958, 1.34195 )
+rect = Rect2( -10, -10, 20, 20 )
+
+[connection signal="body_entered" from="LaserItem" to="LaserItem" method="_on_LaserItem_body_entered"]
+
+[connection signal="screen_exited" from="LaserItem/notifier" to="LaserItem" method="_on_notifier_screen_exited"]
+
+

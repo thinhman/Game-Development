@@ -1,0 +1,105 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Ship.gd" type="Script" id=1]
+[ext_resource path="res://sprites/Sprite.png" type="Texture" id=2]
+[ext_resource path="res://Sheild.tscn" type="PackedScene" id=3]
+[ext_resource path="res://ComeIntoFrame.tres" type="Animation" id=4]
+[ext_resource path="res://ShipTrailGradient.tres" type="Gradient" id=5]
+[ext_resource path="res://Trail.gd" type="Script" id=6]
+
+[node name="Ship" type="KinematicBody2D"]
+
+position = Vector2( 239.327, 683.122 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+horizontalSpeed = 200
+reload_time = 0.5
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="ShipCollisionBox" type="CollisionPolygon2D" parent="." index="1"]
+
+visible = false
+build_mode = 0
+polygon = PoolVector2Array( 0.175888, -21.6068, -22.8375, 12.6876, -22.6583, 21.4705, -15.192, 21.4232, 0.464066, 5.69714, 14.9827, 21.2913, 22.6902, 21.2913, 22.6902, 11.2537 )
+
+[node name="Shield" parent="." index="2" instance=ExtResource( 3 )]
+
+position = Vector2( 0.970612, 5.17651 )
+
+[node name="AmmoTimer" type="Timer" parent="." index="3"]
+
+process_mode = 1
+wait_time = 10.0
+one_shot = true
+autostart = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/ComeIntoFrame = ExtResource( 4 )
+blend_times = [  ]
+
+[node name="LeftTrail" type="Line2D" parent="." index="5"]
+
+visible = false
+position = Vector2( -18.5768, 20.693 )
+points = PoolVector2Array(  )
+width = 5.0
+default_color = Color( 0.4, 0.5, 1, 1 )
+gradient = ExtResource( 5 )
+texture_mode = 47
+sharp_limit = 2.0
+round_precision = 8
+script = ExtResource( 6 )
+_sections_unfolded = [ "Fill", "Z Index" ]
+targetPath = NodePath("../LeftTrailPosition")
+trailLength = 10
+
+[node name="RightTrail" type="Line2D" parent="." index="6"]
+
+visible = false
+position = Vector2( 18.4194, 20.0173 )
+points = PoolVector2Array(  )
+width = 5.0
+default_color = Color( 0.4, 0.5, 1, 1 )
+gradient = ExtResource( 5 )
+texture_mode = 1367929589
+sharp_limit = 2.0
+round_precision = 8
+script = ExtResource( 6 )
+_sections_unfolded = [ "Fill", "Z Index" ]
+targetPath = NodePath("../RightTrailPosition")
+trailLength = 10
+
+[node name="LeftTrailPosition" type="Node2D" parent="." index="7"]
+
+position = Vector2( -18.7049, 25 )
+scale = Vector2( 0.12015, 0.0862605 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="RightTrailPosition" type="Node2D" parent="." index="8"]
+
+position = Vector2( 18.6253, 25 )
+scale = Vector2( 0.12323, 0.0862605 )
+_sections_unfolded = [ "Transform" ]
+
+

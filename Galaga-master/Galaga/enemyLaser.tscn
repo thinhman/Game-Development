@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://laser.gd" type="Script" id=1]
+[ext_resource path="res://Shooter_Images/EnemyProjectile1.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[node name="Area2D" type="Area2D"]
+
+position = Vector2( -4.49585, 3.13959 )
+scale = Vector2( 0.347051, 0.415901 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+velocity = Vector2( 0, -600 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
+
+position = Vector2( 14.4403, -11.1877 )
+scale = Vector2( 1.58507, 1.10612 )
+shape = SubResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Sprite" type="Sprite" parent="." index="1"]
+
+position = Vector2( 13.436, -10.4655 )
+scale = Vector2( 2.49289, 2.04655 )
+texture = ExtResource( 2 )
+
+[node name="notifier" type="VisibilityNotifier2D" parent="." index="2"]
+
+position = Vector2( 13.5285, -10.8073 )
+scale = Vector2( 1.55, 1.08037 )
+rect = Rect2( -10, -10, 20, 20 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[connection signal="body_entered" from="." to="." method="_on_laser_body_entered"]
+
+

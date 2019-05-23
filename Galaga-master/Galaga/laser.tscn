@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://laser.gd" type="Script" id=1]
+[ext_resource path="res://Shooter_Images/PlayProjectile.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9.04181, 10 )
+
+[node name="laser" type="Area2D"]
+
+position = Vector2( -6.03291, 1.26742 )
+scale = Vector2( 0.265417, 0.319631 )
+input_pickable = true
+gravity_vec = Vector2( 0, 0 )
+gravity = 0.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+velocity = Vector2( 0, -600 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
+
+position = Vector2( 23.1732, -19.4144 )
+scale = Vector2( 1.50772, 1.90588 )
+shape = SubResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Sprite" type="Sprite" parent="." index="1"]
+
+position = Vector2( 22.2161, -18.9469 )
+scale = Vector2( 1.78742, 3.11653 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="notifier" type="VisibilityNotifier2D" parent="." index="2"]
+
+position = Vector2( 22.9184, -19.8117 )
+scale = Vector2( 1.36252, 1.9003 )
+rect = Rect2( -10, -10, 20, 20 )
+_sections_unfolded = [ "Transform" ]
+
+[connection signal="body_entered" from="." to="." method="_on_laser_body_entered"]
+
+

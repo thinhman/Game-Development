@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://SpecialLazer.gd" type="Script" id=1]
+[ext_resource path="res://sprites/spritesheets/MegaLaser.png" type="Texture" id=2]
+
+[sub_resource type="CapsuleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 10.0
+height = 2.14851
+
+[node name="SpecialLaser" type="Area2D"]
+
+position = Vector2( -4.76837e-07, -16 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+vel = Vector2( 0, 0 )
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+position = Vector2( 0, 6.14737 )
+scale = Vector2( 1, 0.87193 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( -0.736682, 4.8731 )
+scale = Vector2( 0.619876, 2.53762 )
+shape = SubResource( 1 )
+
+[node name="noitifier" type="VisibilityNotifier2D" parent="." index="2"]
+
+position = Vector2( -0.767024, 6.07315 )
+scale = Vector2( 0.672696, 2.5748 )
+rect = Rect2( -10, -10, 20, 20 )
+
+[connection signal="body_entered" from="." to="." method="_on_SpecialLaser_body_entered"]
+
+

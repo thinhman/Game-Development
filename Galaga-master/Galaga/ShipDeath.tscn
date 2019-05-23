@@ -1,0 +1,32 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://sprites/Explosions/explosions-44.png" type="Texture" id=1]
+[ext_resource path="res://sprites/Explosions/explosions-45.png" type="Texture" id=2]
+[ext_resource path="res://sprites/Explosions/explosions-46.png" type="Texture" id=3]
+[ext_resource path="res://sprites/Explosions/explosions-47.png" type="Texture" id=4]
+[ext_resource path="res://sprites/Explosions/explosions-48.png" type="Texture" id=5]
+[ext_resource path="res://sprites/Explosions/explosions-49.png" type="Texture" id=6]
+[ext_resource path="res://sprites/Explosions/explosions-50.png" type="Texture" id=7]
+[ext_resource path="res://sprites/Explosions/explosions-51.png" type="Texture" id=8]
+[ext_resource path="res://ShipDeath.gd" type="Script" id=9]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ],
+"loop": false,
+"name": "Explosion",
+"speed": 15.0
+} ]
+
+[node name="AnimatedSprite" type="AnimatedSprite"]
+
+position = Vector2( -6.46428, 2.3116 )
+scale = Vector2( 4.81557, 4.36732 )
+frames = SubResource( 1 )
+animation = "Explosion"
+script = ExtResource( 9 )
+
+[connection signal="animation_finished" from="." to="." method="_on_AnimatedSprite_animation_finished"]
+
+

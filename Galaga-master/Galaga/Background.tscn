@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Background.shader" type="Shader" id=1]
+[ext_resource path="res://sprites/stars.jpg" type="Texture" id=2]
+
+[sub_resource type="ShaderMaterial" id=1]
+
+render_priority = 0
+shader = ExtResource( 1 )
+shader_param/speed = 0.1
+_sections_unfolded = [ "shader_param" ]
+
+[node name="Background" type="Sprite"]
+
+material = SubResource( 1 )
+position = Vector2( 247.935, 370.053 )
+scale = Vector2( 1.16831, 1.27126 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Material", "Transform" ]
+
+

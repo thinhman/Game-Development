@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Ship.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://aliens_scene.tscn" type="PackedScene" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[node name="Root" type="Node"]
+
+[node name="Ship" type="KinematicBody2D" parent="." index="0"]
+
+position = Vector2( 493.319, 729.061 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+horizontalSpeed = 200
+reload_time = 0.5
+
+[node name="ShipCollisionBox" type="CollisionShape2D" parent="Ship" index="0"]
+
+scale = Vector2( 6, 6 )
+shape = SubResource( 1 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Ship" index="1"]
+
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="aliens_scene" parent="." index="1" instance=ExtResource( 3 )]
+
+

@@ -1,0 +1,123 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Controls.gd" type="Script" id=1]
+[ext_resource path="res://Background.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Galaga.tres" type="Theme" id=3]
+
+[node name="Control" type="Control"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 503.0
+margin_bottom = 226.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+script = ExtResource( 1 )
+
+[node name="Background" parent="." index="0" instance=ExtResource( 2 )]
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -1.0
+margin_right = -1.0
+margin_bottom = 526.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 1
+
+[node name="controls" type="Label" parent="VBoxContainer2" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 283.0
+margin_right = 502.0
+margin_bottom = 449.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+theme = ExtResource( 3 )
+text = "Original Game Controls:
+Movement: Left and right arrow keys or A and D.
+Shooting: Z, or left click on mouse.
+
+Variant Game Controls:
+Movement: Left and right arrow keys or A and D.
+Shooting: Z, or left click on mouse.
+Missile : Space bar 
+(fires a missle that has an explosion radius upon collision)
+Shield: X 
+(Protects you from divebombs and enemy lasers for 5 seconds)
+Ammo Box: Activates upon collecting
+Allows you to fire rapidly upon button presses (10 seconds)"
+align = 1
+valign = 1
+autowrap = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Theme" ]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer2" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 453.0
+margin_right = 502.0
+margin_bottom = 469.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+
+[node name="Button" type="Button" parent="VBoxContainer2/VBoxContainer" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 502.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 3 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Main Menu"
+flat = false
+align = 1
+_sections_unfolded = [ "Theme" ]
+
+[connection signal="pressed" from="VBoxContainer2/VBoxContainer/Button" to="." method="_on_Back_pressed"]
+
+

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Battle-Everlasting.ogg-645e8a06a5e6c8eaf5120a538c53ef05.oggstr"
+
+[deps]
+
+source_file="res://Audio/Battle-Everlasting.ogg"
+dest_files=[ "res://.import/Battle-Everlasting.ogg-645e8a06a5e6c8eaf5120a538c53ef05.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
