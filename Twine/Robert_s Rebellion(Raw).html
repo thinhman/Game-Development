@@ -1,0 +1,250 @@
+<tw-storydata name="Robert&#39;s Rebellion" startnode="1" creator="Twine" creator-version="2.2.1" ifid="14E31317-6AE6-4730-B76A-BA53729DB67D" zoom="0.6" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+</script><tw-passagedata pid="1" name="Start" tags="" position="503,0" size="100,100">&#39;&#39;GAME OF THRONES&#39;&#39;
+Battle of the Trident
+
+The year is 283 AC, (colour: red)[King Aerys Targaryen (The Mad King)] has just killed your bestfriend, (colour: green)[Lord Eddark of House Stark (Ned)], father and brother. The King&#39;s son, the (colour: red)[Prince Rhaegar Targaryen, &quot;The Last Dragon&quot;] has kiddnap your betrothed and (colour: green)[Ned&#39;s sister Lyanna Stark].
+(colour: red)[King Aerys] has ordered you, &#39;&#39;Lord Robert of House Baratheon&#39;&#39;, and Ned to surrender and come to King&#39;s Landing.
+
+You are worried about your betrothed if you rebel but Ned wants the king to answer for the death of his father and brother.
+(if: $surrender is true)[
+[~~[Surrender peacefully to the king.]~~]
+[[Raise the banner man, and go in a rebellion!! -&gt; rebel]] ]
+(else:)[
+[[Surrender peacefully to the king. -&gt; surrender]]
+[[Raise the banner man, and go in a rebellion!! -&gt; rebel]] 
+]</tw-passagedata><tw-passagedata pid="2" name=" surrender" tags="" position="300,200" size="100,100">You&#39;ve decided to surrender peacefully because you believe it will protect Lyanna rather than risk rebelling against the throne. Ned is furious at you for surrendering and calls you a coward. Ned leaves for Winterfell while you head to Kings Landing. Upon your arrival you are arrested and given no trial. You are charged with treason and executed by the Mad King.
+(set: $surrender to true)
+[[You died try again? -&gt;Start]]</tw-passagedata><tw-passagedata pid="3" name=" rebel" tags="" position="501,199" size="100,100">You have decided to go into a rebellion against the crown. The Mad King must answer for the killing of (colour: green)[Lord Rickard and Brandon Stark.] (colour: red)[Rhaegar] shall answer for my Lyanna. We must send the ravens to our banner mans and prepare for war!
+
+(colour: green)[Ned] headed back North to his home in Winterfell. (colour: green)[Jon Arryn] is staying in the Vale to recapture Gulltown. 
+
+[[You travel South, back to Storm&#39;s End through the Narrow Sea -&gt; Go home]].</tw-passagedata><tw-passagedata pid="4" name=" Go home" tags="" position="501,400" size="100,100">You arrive home at Storms End. News had come back and only (colour: green)[The North (commanded by Ned), The Vale (commanded by John Ayrn), The Riverlands, and The Stormlands] commanded by you have decided to rebel with you.
+(colour: red)[The Reach and Dorne are with the Crown], while the (colour: orange)[Westerlands and Iron Islands] are neutral.
+
+You are already in a bad position as the Crownlands and The Reach cut you off from your allies who are all up North, while Dorne is south of you. 
+(if: $defend is true)[
+[~~[Defend from your castle and wait for your allies]~~]
+[March North through enemy territory to rendezvous with your allies]&lt;shout| (click: ?shout) [ (if: $sword is true) [
+[~~[Grab your Sword]~~]
+[[Grab your War Hammer]] ]
+(else:)[ 
+[[Grab your Sword]]
+[[Grab your War Hammer]] ] ] ]
+(else:)[
+[[Defend from your castle and wait for your allies -&gt; Defend Home]]
+[March North through enemy territory to rendezvous with your allies]&lt;shout| (click: ?shout) [ (if: $sword is true) [
+[~~[Grab your Sword]~~]
+[[Grab your War Hammer]] ]
+(else:)[ 
+[[Grab your Sword]]
+[[Grab your War Hammer]] ] ]
+]
+</tw-passagedata><tw-passagedata pid="5" name="Grab your Sword" tags="" position="501,598" size="100,100">You&#39;ve decided to march out rather than hide behind walls because you are the bold and courageous &#39;&#39;Robert Baratheon&#39;&#39;, you thirst for battle. You leave your younger brother (colour: blue)[Stannis] in charge to defend Storm&#39;s End in your absence. As you leave you grab a sword and strap it our your waist. (colour: blue)[Stannis] gives you a weird look but says nothing. (set: $sword to true)
+
+You gather your men.
+[[Time to march -&gt; Battle #1]]</tw-passagedata><tw-passagedata pid="6" name="Grab your War Hammer" tags="" position="701,597" size="100,100">You&#39;ve decided to march out rather than hide behind walls because you are the bold and courageous &#39;&#39;Robert Baratheon&#39;&#39;, you thirst for battle. You leave your younger brother (colour: green)[Stannis] in charge to defend Storm&#39;s End in your absence. As you leave you grab your trusted War Hammer, so heavy only a few in all of the seven kindoms can wield.
+(set: $hammer to true)
+You gather your men.
+[[Time to march -&gt; Battle #1]] </tw-passagedata><tw-passagedata pid="7" name=" Defend Home" tags="" position="700,398" size="100,100">You&#39;ve decided to defend your castle because you believe it would give you a better chance at surviving than entering enemy territory. You send ravens to message (color: green)[Ned and John] to travel South while you wait at Strom&#39;s End.
+
+A couple of days have passed and you see enemies on the horizion. You have waited too long and allowed the enemy to group together. Due to your positioning it was easy for the enemy to surround you and cut of any escape. Your alies are too far and will not make it in time. They overwhelm you and you are defeted.
+(set: $march to false)
+[[(set: $defend to true)The rebellion was ended quickly, Try again? -&gt;Start]] </tw-passagedata><tw-passagedata pid="8" name=" Battle #1" tags="" position="602,799" size="100,100">(if: $hammer is true)[
+You march out with your army and engaged in some small forces at Summerhall. You out number them and easily defeat them. You continue on but got ambushed near Ashford by (colour: red)[Randyll Tarly of The Reach]. What are you orders my Lord: (set: $count to 13)
+(live: 1s) [ (if: $count is 0)[ (stop:) Too late enemy reinforcement has arrived and attacked you from both sides.
+[[The rebellion ended quickly, try again? -&gt; Go home]] ]
+(else:)[(set: $count to $count - 1)(print: &quot;Timer:&quot;)(print: $count) 
+(unless: $count is 0)[ [[Stay and fight!!]] or [[Cut your lost and regroup -&gt; Regroup]] ] ] ]
+]
+(elseif: $sword is true)[
+You march out with your army and engaged in some small forces at Summerhall. Even though you out number them you&#39;ve grab a sword instead of your trusted war hammer. You are not very skilled with a sword and an enemy got a lucky hit on you. You win the battle but bleed out due to your injury.
+[[The rebellion ended quickly, try again? -&gt; Go home]]
+]
+
+
+</tw-passagedata><tw-passagedata pid="9" name="Stay and fight!!" tags="" position="202,801" size="100,100">You have decided to turn around and face (colour: red)[Randell Tarly] head on. Your men rallies behind you. You swing your war hammer smashing through your enemies. 
+Just as you think you were turning the battle around, the main army led by (colour: red)[Mace Tyrell joins Randyll] taking your men by suprise. You get attacked by both side and the rebellion was stopped early.
+
+[[(set: $hammer to false)Try again? -&gt; Go home]]</tw-passagedata><tw-passagedata pid="10" name=" Regroup" tags="" position="502,1007" size="100,100">You make a quick decision and make a tatical retreat. From you battle experiance you knew you were in a bad position and could be out flanked. (colour: red)[Mace Tyrell] led the main army and joins with (colour: red)[Ranell] however you&#39;ve already ordered a retreat.
+You lose a quarter of your men but it could have been much worse. You head North with enemies behind you but they soon gave up the chase to seige Storm&#39;s End. Luckly your brother Stannis is a fine tactican and he distracts (colour: red)[Mace and Randell] to allow you to regroup.
+
+[[Regroup at Stoney Sept -&gt; Stoney Sept]] </tw-passagedata><tw-passagedata pid="11" name=" Stoney Sept" tags="" position="503,1199" size="100,100">You head to Stoney Sept to give your men some rest and regroup. You hear news of the (colour: red)[Royal Contingent led by Lord Jon Connington], trying to intercept you. Coming from King&#39;s Landing, he was able to trace you back to Stoney Sept.
+
+What do you do:
+[[Retreat]]
+[[Face Connington&#39;s army]]
+[[Ask for the town people&#39;s help -&gt; Help]]</tw-passagedata><tw-passagedata pid="12" name="Retreat" tags="" position="301,1400" size="100,100">You don&#39;t believe you can face (colour: red)[Connington] head on after suffering losses at Ashford. You and your men retreat further up North. Your men have been marching for a long time from Ashford, so their morale is low. 
+
+Royal calvary have caught up to you and you must face them head on. You fight bravely and nearly decimated the enemy however the remaining of (colour: red)[Connington&#39;s army] arives and all hope is lost.
+(set: $hammer to false) (set: $sword to true) (set: $march to false)
+[[The rebellion was shutdown early, Try again? -&gt; Go home]]</tw-passagedata><tw-passagedata pid="13" name="Face Connington&#39;s army" tags="" position="501,1400" size="100,100">You prepare your men to face (colour: red)[Connington&#39;s] army. You are out numered but use your positioning to your advantage. Rather than facing them in open feild you hide your men in the town and allow Connington to enter.
+
+Once the enemy has entered the narrow streets, your and your men ambush! Feirce fighting began all around the town&#39;s streets and alleys. You hold them off for a while but you start to lose men quickly. Just in time, your friend (colour: green)[Ned Stark and Lord Hoster Tully] arrives from the North.
+
+(colour: red)[Connington] knew he was now losing the battle and retreated back to the capital King&#39;s Landing. (colour: red)[King Aerys] heard the royal troops has lost and stripped (colour: red)[Connington] of his title and exiled him.
+
+[[Rendezvous with the rest of the rebel forces -&gt;Rendezvous]]</tw-passagedata><tw-passagedata pid="14" name=" Help" tags="" position="702,1399" size="100,100">You know that your men are outnumbered and can not win this fight easily. You ask for help of the townspeople and they agree to help you and your men as they do not like the rule of (colour: red)[King Aerys.] You hide within the town as the Royal Troops search for you.
+
+Then from the North, men led by your friend (colour: green)[Ned Stark and Lord Hoster Tully] arrives. Feirce fighting began all around the town&#39;s streets and alleys. You and your men emerges ambushing (colour: red)[Connington&#39;s] men.
+
+(colour: red)[Connington] knew he was now losing the battle and retreated back to the capital King&#39;s Landing. (colour: red)[King Aerys] heard the royal troops has lost and stripped (colour: red)[Connington] of his title and exiled him.
+
+[[Rendezvous with the rest of the rebel forces -&gt;Rendezvous]]</tw-passagedata><tw-passagedata pid="15" name="Rendezvous" tags="" position="602,1600" size="100,100">After the lost at Stoney Sept, (colour: red)[King Aerys] call for (colour: red)[Prince Rhaegar Targaryen]. Men from The Reach and Dorne loyal to the crown all gather at King&#39;s Landing, about 40,000 men.
+
+You head up North and rendezvous with the rest of the rebel army joining with (colour: green)[Lord Jon Arryn, Lord Hoster Tully and Ned.]
+
+[[Time for the final battle -&gt; Battle of the Trident]]</tw-passagedata><tw-passagedata pid="16" name=" Battle of the Trident" tags="" position="601,1801" size="100,100">With the (colour: red)[Royal Army under Rhaegar] coming from the South and your (colour: green)[Rebel Army] from the North you meet at a river point called the Trident.
+(set: $count to 11)
+(live: 1s) [ (if: $count is 0)[ (stop:)
+[[Too late! The enemy crossed the river -&gt; Wait]] ]
+(else:)[(set: $count to $count - 1)(print: &quot;Timer:&quot;)(print: $count)] 
+(unless: $count is 0)[ [[Let the Royal Army cross the river -&gt; Wait]] 
+[[Charge across the river first -&gt; Charge]] ] ]
+</tw-passagedata><tw-passagedata pid="17" name=" Wait" tags="" position="400,1999" size="100,100">You wait for the enemy to start crossing the river. Just as they cross you meet them head on. The enemy lose some forces due to the water slowing them down and they are not fully in formation.
+Even so the (colour: red)[Royal army] have the greater number.
+
+(set: $count to 10)
+(live: 1s) [ (if: $count is 0)[ (stop:)
+[[Hold Formation!]] ]
+(else:)[(set: $count to $count - 1)(print: &quot;Timer:&quot;)(print: $count)] 
+(unless: $count is 0)[ 
+[[Hold Formation!]] 
+[[Send extra troops to the left flank]] 
+[[Reinforce the rear]] ] ] 
+</tw-passagedata><tw-passagedata pid="18" name=" Charge" tags="" position="700,2000" size="100,100">You charge at the enemy crossing the river. Just as you cross you are met with the Royal army head on. You lose some forces due to the water slowing your men down and you have not set formation.
+(set: $count to 10)
+(live: 1s) [ (if: $count is 0)[ (stop:)
+[[Hold the line! -&gt;Hold Formation!]] ]
+(else:)[(set: $count to $count - 1)(print: &quot;Timer:&quot;)(print: $count)] 
+(unless: $count is 0)[ 
+[[Hold the line! -&gt;Hold Formation!]] 
+[[Send extra troops to the left flank]] 
+[[Reinforce the rear]] ] ]  </tw-passagedata><tw-passagedata pid="19" name="Head for the position of Prince Rhaegar" tags="" position="501,2401" size="100,100">Hours have passed and both sides have lots of casualty. Troops shouting in thick of war. You decided that you will end this now. You scan the battlefeild for for the Prince who kiddnap your betrothed. Then there he was, the silvered hair (colour: red)[Targaryen]. Outfited in black armor, with rubys on the armor chestplate, he skillfully cut down your troops
+
+[[RHAEGAR!]]
+(set: $health to 2)
+(set: $R to 3)</tw-passagedata><tw-passagedata pid="20" name="Stay and help your men" tags="" position="800,2400" size="100,100">Hours have passed and both sides have lots of casualty. Troops shouting in thick of war. You continue on to fight with your men. Somewhere on the battlefeild (colour: green)[Ned Stark] finds (colour: red)[Rhaegar] cutting down your men.
+
+[[Ned charges at Rhaegar and they both engage in 1-on-1 combat.]]
+(set: $health to 2)
+(set: $R to 3)</tw-passagedata><tw-passagedata pid="21" name="Hold Formation!" tags="" position="200,1899" size="100,100">You tell the men to hold position. Both sides are in a stalemate in the middle of the feild. (colour: red)[Dornishmen] from the left have outmanuvered you and are flanking you. There&#39;s no time to reposition. Already being outnumbered you can no longer sustain the fight and the rebellion has been shut down.
+[[Try again? -&gt; Battle of the Trident]]</tw-passagedata><tw-passagedata pid="22" name="Send extra troops to the left flank" tags="" position="501,2201" size="100,100">You send troops from (colour: green)[The Vale] to flank from the left. Their might crushes through the (colour: red)[Dornishmen]. Even with that minor victory the battle enters a stalemate as neither side can push the other back.
+
+[[Head for the position of Prince Rhaegar]]
+[[Stay and help your men]]</tw-passagedata><tw-passagedata pid="23" name="Reinforce the rear" tags="" position="700,2199" size="100,100">You send men to reinforce the rear in case you get attacked from behind. (colour: red)[Dornishmen] from the left gets the flank on you but the rear units hold them off. Both sides lose their men and you are slowly getting pushed back.
+
+[[Head for the position of Prince Rhaegar]]
+[[Stay and help your men]]</tw-passagedata><tw-passagedata pid="24" name="RHAEGAR!" tags="" position="501,2599" size="100,100">(set: $count to 5)
+(live: 1s)[ (unless: $health is 0)[(unless: $R is 0)[
+Health
+(colour: green)[Robert Baratheon:(print: $health)](colour: red)[Rhaegar Targaryen:(print:$R)]
+Timer:(print: $count) (set: $count to $count -1)
+[[Attack]]
+[[Block]]
+[[Counter]]
+] ] ]
+(if: $health is 0)[
+[[You have died in battle, Try again -&gt;Head for the position of Prince Rhaegar]] 
+]
+(elseif: $R is 0)[
+[[You have slained &quot;The Last Dragon&quot;]] ]</tw-passagedata><tw-passagedata pid="25" name="Attack" tags="" position="202,2801" size="100,100">(set: $state to (random: 1,3))
+(if: $state is 1)[
+You both attacked but you over powered him.
+[[(set: $R to $R -1)Dealt Damage -&gt;RHAEGAR!]] ]
+(elseif: $state is 2)[
+Your attack was blocked.
+[[Lose no health -&gt;RHAEGAR!]]
+]
+(elseif: $state is 3)[
+Your attack was countered.
+[[(set: $health to $health -1)Health -1 -&gt;RHAEGAR!]]
+]</tw-passagedata><tw-passagedata pid="26" name="Block" tags="" position="402,2799" size="100,100">(set: $state to (random: 1,3))
+(if: $state is 1)[
+You blocked his attack.
+[[Lose no health -&gt;RHAEGAR!]] ]
+(elseif: $state is 2)[
+Both blocked at the same time.
+[[Lose no health -&gt;RHAEGAR!]]
+]
+(elseif: $state is 3)[
+Your block was countered.
+[[(set: $health to $health -1)Health -1 -&gt;RHAEGAR!]]
+]</tw-passagedata><tw-passagedata pid="27" name="Counter" tags="" position="600,2802" size="100,100">(set: $state to (random: 1,3))
+(if: $state is 1)[
+You countered his attack.
+[[(set: $R to $R -1)Dealt Damage -&gt;RHAEGAR!]]  ]
+(elseif: $state is 2)[
+Your counter was ineffective.
+[[Lost no health -&gt;RHAEGAR!]] ]
+(elseif: $state is 3)[
+You both countered at the same time.
+[[Lost no health -&gt;RHAEGAR!]]
+]</tw-passagedata><tw-passagedata pid="28" name="You have slained &quot;The Last Dragon&quot;" tags="" position="199,3002" size="100,100">With the swing of your hammer you land directly on the Prince&#39;s chest. Rubys encrested on his chest flew into the river. A loud thundering sound was heard on the battlefeild.
+
+&quot;THE PRINCE IS DEAD!&quot; The enemy troops immediatly retreated as they had lost their leader. The war was over. 
+
+The crown was defeted and as the war hero who ended the Mad King&#39;s reign, you are now pronounced (color: yellow)[&#39;&#39;King Robert of the House Baratheon, the First of His Name, King of the Andals and the First Men, Lord of the Seven Kingdoms, and Protector of the Realm.&#39;&#39;]
+
+THE END.</tw-passagedata><tw-passagedata pid="29" name="Ned charges at Rhaegar and they both engage in 1-on-1 combat." tags="" position="900,2599" size="100,100">(set: $count to 5)
+(live: 1s)[ (unless: $health is 0)[(unless: $R is 0)[
+Health
+(colour: green)[Eddark Stark:(print: $health)](colour: red)[Rhaegar Targaryen:(print:$R)]
+Timer:(print: $count) (set: $count to $count -1)
+[[Attack1]]
+[[Block1]]
+[[Counter1]]
+] ] ]
+(if: $health is 0)[
+[[You have died in battle, Try again -&gt;Stay and help your men]] 
+]
+(elseif: $R is 0)[
+[[&quot;The Last Dragon&quot; is dead]] ]</tw-passagedata><tw-passagedata pid="30" name="&quot;The Last Dragon&quot; is dead" tags="" position="1002,3002" size="100,100">With the swing of the sword Ned lands a fatal cut on the Prince. 
+
+&quot;THE PRINCE IS DEAD!&quot; The enemy troops immediatly retreated as they had lost their leader. The war was over. The crown was defeted. 
+
+Ned was considered as the war hero who ended the Mad King&#39;s reign. Even though you played a pivotal role in the rebellion, Ned was pronounced to (color: yellow)[&#39;&#39;King Eddark of House Stark, &quot;The Quiet Wolf&quot;, Lord of the Seven Kingdoms, and Protector of the Realm.&#39;&#39;]
+
+THE END.</tw-passagedata><tw-passagedata pid="31" name="Attack1" tags="" position="702,2800" size="100,100">(set: $state to (random: 1,3))
+(if: $state is 1)[
+You both attacked but you over powered him.
+[[(set: $R to $R -1)Dealt Damage -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]] ]
+(elseif: $state is 2)[
+Your attack was blocked.
+[[Lose no health -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]]
+]
+(elseif: $state is 3)[
+Your attack was countered.
+[[(set: $health to $health -1)Health -1 -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]]
+]</tw-passagedata><tw-passagedata pid="32" name="Block1" tags="" position="900,2798" size="100,100">(set: $state to (random: 1,3))
+(if: $state is 1)[
+You blocked his attack.
+[[Lose no health -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]] ]
+(elseif: $state is 2)[
+Both blocked at the same time.
+[[Lose no health -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]]
+]
+(elseif: $state is 3)[
+Your block was countered.
+[[(set: $health to $health -1)Health -1 -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]]
+]</tw-passagedata><tw-passagedata pid="33" name="Counter1" tags="" position="1097,2799" size="100,100">(set: $state to (random: 1,3))
+(if: $state is 1)[
+You countered his attack.
+[[(set: $R to $R -1)Dealt Damage -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]]  ]
+(elseif: $state is 2)[
+Your counter was ineffective.
+[[Lost no health -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]] ]
+(elseif: $state is 3)[
+You both countered at the same time.
+[[Lost no health -&gt;Ned charges at Rhaegar and they both engage in 1-on-1 combat.]]
+]</tw-passagedata></tw-storydata>
