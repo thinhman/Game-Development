@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61549c411188a4d4aa2e4ba98c1732bf, type: 3}
+  m_Name: OBLT
+  m_EditorClassIdentifier: 
+  questData:
+    questName: Orc BLT
+    description: 
+    questType: 1
+    requiredItems:
+    - item: {fileID: 114910095671855084, guid: 6a718e7f166e4438da210d7b646d2842, type: 2}
+      requiredAmount: 2
+    - item: {fileID: 114266018502995966, guid: ceaa8d0fc44ae9045ba896b17dbbf57e, type: 2}
+      requiredAmount: 3
+    questState: 3
+  DependentQuests:
+  - {fileID: 11400000, guid: 58f82cab45cfb48aeb82c3f03b11840c, type: 2}
+  questID: 4
+  AreaNeeded: {fileID: 0}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61549c411188a4d4aa2e4ba98c1732bf, type: 3}
+  m_Name: buffalo wings
+  m_EditorClassIdentifier: 
+  questData:
+    questName: Lemon Buffalo Wings
+    description: 
+    questType: 1
+    requiredItems:
+    - item: {fileID: 114075027390112536, guid: b135bb63056c8fc44ba447615337fc9e, type: 2}
+      requiredAmount: 1
+    - item: {fileID: 114155559191110190, guid: 629f213a75aff4b7eacab9785f728d7d, type: 2}
+      requiredAmount: 3
+    questState: 0
+  DependentQuests:
+  - {fileID: 11400000, guid: 6aa1848fcea304ec79bd0b015e0abd0e, type: 2}
+  - {fileID: 11400000, guid: 96506e99a4e40004abe9931d76ce8b83, type: 2}
+  questID: 6
+  AreaNeeded: {fileID: 0}

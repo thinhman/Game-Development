@@ -1,0 +1,2410 @@
+fileFormatVersion: 2
+guid: d44257f712f384646b237ab1a4b8abc6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tree 2
+    21300002: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_1
+    21300004: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_2
+    21300006: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_3
+    21300008: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_4
+    21300010: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_5
+    21300012: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_6
+    21300014: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_7
+    21300016: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_8
+    21300018: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_9
+    21300020: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_10
+    21300022: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_11
+    21300024: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_12
+    21300026: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_13
+    21300028: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_14
+    21300030: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_15
+    21300032: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_16
+    21300034: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_17
+    21300036: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_18
+    21300038: tree 1
+    21300040: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_20
+    21300042: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_21
+    21300044: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_22
+    21300046: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_23
+    21300048: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_24
+    21300050: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_25
+    21300052: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_26
+    21300054: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_27
+    21300056: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_28
+    21300058: house 2
+    21300060: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_30
+    21300062: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_31
+    21300064: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_32
+    21300066: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_33
+    21300068: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_34
+    21300070: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_35
+    21300072: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_36
+    21300074: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_37
+    21300076: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_38
+    21300078: restaurant
+    21300080: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_40
+    21300082: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_41
+    21300084: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_42
+    21300086: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_43
+    21300088: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_44
+    21300090: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_45
+    21300092: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_46
+    21300094: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_47
+    21300096: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_48
+    21300098: house 1
+    21300100: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_50
+    21300102: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_51
+    21300104: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_52
+    21300106: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_53
+    21300108: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_54
+    21300110: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_55
+    21300112: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_56
+    21300114: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_57
+    21300116: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_58
+    21300118: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_59
+    21300120: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_60
+    21300122: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_61
+    21300124: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_62
+    21300126: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_63
+    21300128: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_64
+    21300130: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_65
+    21300132: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_66
+    21300134: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_67
+    21300136: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_68
+    21300138: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_69
+    21300140: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_70
+    21300142: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_71
+    21300144: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_72
+    21300146: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_73
+    21300148: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_74
+    21300150: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_75
+    21300152: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_76
+    21300154: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_77
+    21300156: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_78
+    21300158: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_79
+    21300160: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_80
+    21300162: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_81
+    21300164: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_82
+    21300166: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_83
+    21300168: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_84
+    21300170: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_85
+    21300172: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_86
+    21300174: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_87
+    21300176: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_88
+    21300178: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_89
+    21300180: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_90
+    21300182: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_91
+    21300184: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_92
+    21300186: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_93
+    21300188: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_94
+    21300190: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_95
+    21300192: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_96
+    21300194: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_97
+    21300196: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_98
+    21300198: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_99
+    21300200: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_100
+    21300202: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_101
+    21300204: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_102
+    21300206: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_103
+    21300208: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_104
+    21300210: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_105
+    21300212: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_106
+    21300214: tree 1 top
+    21300216: tree 2 top
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1648
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b3b247fd6faa740881c6232077d73d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1499
+        width: 112
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53199b3fe649c1a468c768d175e5974e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1669
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaf35dd15d338e40bf8936f35198c85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1668
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c31abbdba16d049a13ca675fb8ad46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1668
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3010ca1f798c14a8e57112549a53b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_6
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1668
+        width: 9
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a98de16600a704a8bb620e7a7b789a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1668
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45918d495394a14ca597e1980c48e95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1668
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f72a0635eb09b46860c7a1b0e309f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1599
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d015fc513d6622441a01588ba62ea2b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1599
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b863889044fca0949bf8f9f0d6a4d559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1564
+        width: 336
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09edee120a08d034ea35e354244075f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1487
+        width: 96
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1fcdd393448f6458fe5ed4a67d80eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_13
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1549
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0c8045e48a1d74db6333b0a2abb7b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_14
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1549
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25866cf8bd69ecd49b90e5f14c07d26e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_15
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1524
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7060babc83d294498d83c46041af9c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1534
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e232cb9b415a89b4fbd03dd20620e01f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_17
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1537
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a873780a858a9740a0cd8ca54d1b5fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_18
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1560
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1390df61ced2904daa5a4dd09c2d056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree 1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1487
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d062d082720f3ee459954d0887b8af7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_20
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1496
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef8743c4140f5144b4dcb9e5f54d18f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1486
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b12a790cfcb524d843d9f5510bd406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_22
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1502
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28d9a37478ef524eadd6ad7b7f4c09d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_23
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1464
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760959942a9c0f147bd537d7bdec9f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1407
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd661d48cc65e99478d3bdff14e7c1d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1414
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5f059a3a8907f4e8c0ab5edfbcf50c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_26
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1419
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374f50edfa541d742b88dd22d0cfb603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_27
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1385
+        width: 144
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1011b9e8512a0f4d8d02bf3effbf570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_28
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1383
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a274b0ece67507c42ab4695dacfb6553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house 2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1221
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75af83298aab4144d821274d4a4711c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1213
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe933ce87fd980e499f8c3a5d19609ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_31
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1214
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42dd22095fd4c549858ed9cda4c5b93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_32
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1195
+        width: 222
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665c238ca3d7db74b816dd5dfd921af5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_33
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1202
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0e412abe6a54e4b9a4b546aded7c3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_34
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1204
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff18bd75b9867a43aab06bcd86e89e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1068
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47345dd11616d4f4494a946ada518200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_36
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1068
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d179764b3be8145a94fcfa7855d5fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_37
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1068
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a0cf4c53e42a5429620e0e4c8b1393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_38
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1068
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc87706b4433470468f9703efd2f7de6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restaurant
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1069
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1400483043871f64d9f1d9f9ca7c81ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_40
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1069
+        width: 130
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2920d3f57acafce44b36fe94add3ba6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_41
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1069
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a543980603924eaadce94d622b256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_42
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1065
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c14511711a334e4bbfb7d62cc60ba9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_43
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1066
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b425e5d04581004993151b2f91ec9d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 946
+        width: 112
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173e84f77d0100744867edaa098245da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_45
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 945
+        width: 112
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb092f9a15aac7499fce2d6669254da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_46
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 946
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b62cbc3d01a5004994641cb1590afa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_47
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 957
+        width: 131
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e487c841b7a1bff4881709f23a23693c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_48
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 961
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561d97c554864ac418c663cc9231f125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house 1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 964
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f599ff470889b544bfcedf1c37e75ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 784
+        width: 112
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86cc38b23b34da4d8da86cfba0a30b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_51
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 789
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8817fcfe1bfea4940b133dee46d96f5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_52
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 793
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88956974d251e4643bf9c67607bc7b29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_53
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 794
+        width: 119
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ccda2d0df8c1240a65b671c08d5f25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_54
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 794
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ff2a43ed38691428329a31db3f4d45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_55
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 794
+        width: 103
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28db9bf5f3e8c0e47894a044e3ee0330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 700
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f49973aab24a848861a4e87730f7ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_57
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 522
+        width: 119
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fb1cb59c429d74e9dd877870e9da23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_58
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 663
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaefec6730f647489659ceae5633802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_59
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 662
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b80098e54cd3d49a9b5149ba93bfa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_60
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 660
+        width: 87
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e574d3b3f7caf49b886c4649477fca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_61
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 660
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c3f9bee06e062488330a2ec46d1717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_62
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 659
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f9f195519e0c24ebdc2dfd191a5d9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_63
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 534
+        width: 134
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458d062e1e6ba1f41b4a8802ffdf5efe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_64
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 400
+        width: 119
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f67a123a92524f94305bef31b74a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 404
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8e568a84372a74baacc6cf446b5f0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_66
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 404
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cff0d30e77d88f4789a0bdb25317c31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_67
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 404
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f3de918fe927841a85116156800e32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_68
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 398
+        width: 96
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c31cb2f48f571f4385dd06c8381bcb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_69
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 342
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cef787cf5e6e594d8728f306425eebd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_70
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 294
+        width: 122
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d88a8a6e2dbd9247af15671b8e80ae0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_71
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 342
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504b0da957b24c640b1708b4d2c0a2ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 213
+        width: 95
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46cc0e949ec77640bcaf0894e7129b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_73
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 325
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f85aede56568e418e9ce722af5d79c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_74
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 213
+        width: 93
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41a05818510dde4598ef1a3b3990157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 294
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da4889a5a19dbb4cb4a5779a736c4b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_76
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 294
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03de7c2ac42af2d4391898b6f91909ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_77
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 308
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6965e8dac2b8244e801b517e6b1bdd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_78
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 209
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e8a0912d320d741bcf6dc4b3b243c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_79
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 86
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd839e11700807042b73afbe7fd29e84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_80
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 103
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47411a482a0afc045a84384e2d23c0d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_81
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 75
+        width: 174
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74c92dc3081bf3448f5bb02db42f694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_82
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 104
+        width: 11
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e10d50acacba2743a2c1a1f278b4017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_83
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 119
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab5491cb683fd742b974fd9b964c2ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_84
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 119
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f3808cfd468e14da31fd69bc20d5a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_85
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 119
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7a7d3bc7fe5a24f94c60537872f2e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_86
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 119
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9881afe6e8bcf549916da611bf8e480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_87
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 119
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287b0ced0b58c4f419965eff63e3b4a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_88
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 119
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b28846afa45b164cbb160f4ee159273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_89
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 119
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de74548f13a8be64295495982918a6fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_90
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 119
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cefd388d32f0b48acbe1b9a7e80a2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_91
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 119
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6851d78dd5afb49968d3804d5ed092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_92
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 119
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6577bc24653409a478551ef6b23b05d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_93
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 6
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc43e464f592f6046989184c4346e3cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_94
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ace48a4bd6afab4db7fc94b2c5d6578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_95
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 75
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205ed4d29d9c27b408492b0f8fcf145d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_96
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 75
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd00040beb99d6547b9acb6fc7180af9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_97
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 75
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec703941b01df3344bf9f66659233f30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_98
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 75
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e3dea5ba495c143aa92d27cc0b8add
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_99
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 70
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05125a63431df64469e7493ffba964c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_100
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 75
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d707a18e2e9fd4eb749edde12ee648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_101
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 75
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c445ae08d9ebedb4da010ea4d6ed5e84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_102
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 57
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130245a2065504e4c9ab6a06e07498c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_103
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cada60728015d488eb70ce6ec7f8be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_104
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 57
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c1074329e8dc74498c9e20bc6020f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_105
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d74ae8a9811b14aa28366068645fbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hgss_tiliset_my_work_complete_by_wesleyfg_d3k3d0o_106
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 55
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66cb75e5f341f04a91fd783e07c3e79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree 2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1535
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df4d05a059dbb94cb836686751060e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree 1 top
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1504
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71f693585704be429524f751ea062cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree 2 top
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1552
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dbfc2980d3766439fbb30793b61f45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3eef805c8bcbb10428be7653333721fd
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

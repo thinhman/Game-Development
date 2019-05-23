@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61549c411188a4d4aa2e4ba98c1732bf, type: 3}
+  m_Name: Prove Strength
+  m_EditorClassIdentifier: 
+  questData:
+    questName: Prove Strength
+    description: 
+    questType: 1
+    requiredItems:
+    - item: {fileID: 114198375121334752, guid: b58c843e8dab5db46bfe9c8ce10c7251, type: 2}
+      requiredAmount: 2
+    - item: {fileID: 114526392816130644, guid: 28d34c0348286254f824a60842f0fd56, type: 2}
+      requiredAmount: 2
+    - item: {fileID: 114910095671855084, guid: 6a718e7f166e4438da210d7b646d2842, type: 2}
+      requiredAmount: 2
+    questState: 0
+  DependentQuests:
+  - {fileID: 11400000, guid: 01189e03641ec49068437b49802f901b, type: 2}
+  - {fileID: 11400000, guid: 00851405f49254c28ba66a7dbd2a3fd1, type: 2}
+  reward: {fileID: 114490485229216108, guid: 9071ed8c506d02846868e3594e27e40e, type: 2}
+  questID: 2
+  AreaNeeded: {fileID: 0}
