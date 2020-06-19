@@ -1,2 +1,3 @@
 # Cuisine-Quest
-Final project for Game Development class at cal poly pomona.
+RPG game developed with Unity
+Inspired by Zelda
